@@ -1,0 +1,306 @@
+body{
+    background-color: #FCF0FC;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:10px;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    background-color: #99def6;
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* Header CSS */
+
+h1{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.head_div{
+  display: flex;
+  flex-direction:column;
+  align-content: center;
+}
+.head{
+  margin:0px;
+  align-self: center;
+  font-size: 10px;
+  color: white;
+}
+.section1{
+    display: flex;
+    flex-direction:row;
+}
+
+.top{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+}
+
+main{
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Search Form CSS */
+
+.type{
+  width: 300px;
+  height:30px;
+  border-radius: 8px;
+  padding-left:10px;
+  font-size: 16px;
+  border:none;
+}
+
+.search_option{
+  font-size: 16px;
+}
+
+.search_button{
+  height:30px;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+/* Upload Image Corresponding Forms CSS */
+
+.toUpload{
+  width: 300px;
+  height:30px;
+  border-radius: 8px;
+  font-size: 16px;
+  border:none;
+  background-color: #99def6;
+  margin-top: 5px;
+}
+
+.toUpload:hover{
+  background-color: white;
+}
+
+.form-div{
+  display:flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.upload_file{
+  display:flex;
+  flex-direction: column;
+}
+
+input[type=text]{
+  font-size:14px;
+  border-radius: 1px;
+}
+
+textarea{
+  border-radius: 1px;
+
+}
+
+label{
+  text-align: right;
+  flex-basis:35%;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.tag_label{
+  text-align: left;
+}
+
+.div_check{
+ flex-wrap: nowrap;
+}
+.submit_button{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.submit_upload:hover{
+  background-color: #99def6;
+}
+
+.submit_upload{
+  background-color:#ffffff;
+  padding:10px;
+  margin-top:10px;
+  font-size:15px;
+  width:200px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+/* Single image CSS */
+
+.small_section{
+  display: flex;
+  align-items: center;
+  margin: 30px;
+
+}
+.single_image_big_section{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.single_image{
+  display: flex;
+  flex-direction:row;
+}
+
+.info{
+  display: flex;
+  flex-direction:column;
+}
+
+.parse_info{
+  margin-top:10px;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+
+}
+.prev_button{
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+  font-size: 20px;
+  border:none;
+  position: fixed;
+  background-color: #99def6;
+
+}
+
+.second_button{
+  width:125px;
+  height:25px;
+  font-size: 14px;
+  margin-top: 10px;
+  border:none;
+}
+
+.second_button:hover{
+  background-color: #99def6;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.seconddown{
+  width: 100px;
+  height:25px;
+  border-radius: 8px;
+  padding-left:10px;
+  font-size: 14px;
+  border:#99def6;
+}
+
+.secondtext{
+  width: 100px;
+  height:25px;
+}
+
+p{
+  font-size: 14px;
+
+}
+
+/* Gallery CSS */
+
+img{
+  border-radius: 8px;
+}
+
+
+
+.gallery{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.display{
+  width:250px;
+  height:175px;
+}
+
+/* Menu CSS */
+
+.menu{
+  display:relative;
+  display:inline-block;
+}
+.menu_button{
+  width:150px;
+  height:30px;
+  font-size: 15px;
+  background-color: white;
+  border:none;
+  margin-left: 240px;
+  margin-bottom:5px;
+}
+
+.menu_button:hover {
+  font-weight: bold;
+  background-color: #99def6;
+}
+
+.menu_content{
+  margin-top: initial;
+  margin-left: 200px;
+  display:none;
+  position:absolute;
+  background-color: white;
+  list-style-type: none;
+  visibility: hidden;
+}
+
+.menu:hover .menu_content{
+  display: list-item;
+  visibility: visible;
+
+}
+
+li{
+  display: inline;
+  position: relative;
+  background-color: white;
+
+}
+
+li:hover{
+  background-color: #99def6;
+}
+
+.li_button:hover{
+  background-color: #99def6;
+}
+
+.li_button{
+  background-color: white;
+  border:none;
+  font-size: 14px;
+  width:150px;
+  height:20px;
+}
